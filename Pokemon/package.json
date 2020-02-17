@@ -1,0 +1,20 @@
+{
+	"name": "pokemon",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx tsc --outDir build && node build/index.js",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-jest": "^25.2.0",
+		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"@types/node": "^12.7.4",
+		"jest": "^25.1.0"
+	}
+}

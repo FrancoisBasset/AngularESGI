@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "commonjs"
+	},
+    "include": [
+		"index.ts",
+		"pokemon.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
