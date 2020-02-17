@@ -1,6 +1,5 @@
 import { Abilities } from './abilities';
 import { Objects } from './objects';
-import { log } from 'util';
 
 export class Pokemon {
 	public paralysed: boolean = false;

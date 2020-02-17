@@ -3,8 +3,6 @@ const firstToAttack = require('./Pokemon').firstToAttack;
 const Abilities = require('./abilities').Abilities;
 const Objects = require('./objects').Objects;
 
-
-
 describe('Pokemon', () => {
 	var francois = new Pokemon('francois', 50, 100, [
 		Abilities.Chrolophyll
