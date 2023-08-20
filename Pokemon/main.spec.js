@@ -4,14 +4,14 @@ const Abilities = require('./abilities').Abilities;
 const Objects = require('./objects').Objects;
 
 describe('Pokemon', () => {
-	var francois = new Pokemon('francois', 50, 100, [
+	const francois = new Pokemon('francois', 50, 100, [
 		Abilities.Chrolophyll
 	],
 	[
 		Objects.ChoiceScarf
 	]);
 	
-	var pikachu = new Pokemon('pikachu', 10, 5, [
+	const pikachu = new Pokemon('pikachu', 10, 5, [
 		Abilities.QuickFeet
 	],
 	[

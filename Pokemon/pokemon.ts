@@ -23,7 +23,7 @@ export class Pokemon {
 	}
 
 	public getCalculatedSpeed() : number {
-		var speed = this.speed;
+		let speed = this.speed;
 	
 		if (this.paralysed && !this.hasAbility(Abilities.QuickFeet)) {
 			speed /= 2;
