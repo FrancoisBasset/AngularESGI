@@ -1,6 +1,6 @@
 import { Pokemon } from './pokemon';
-import { Abilities } from './abilities';
-import { Objects } from './objects';
+import Abilities from './abilities';
+import Objects from './objects';
 
 const francois = new Pokemon('francois', 100, 100, [
 	Abilities.Chrolophyll
