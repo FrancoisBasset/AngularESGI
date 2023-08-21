@@ -1,4 +1,4 @@
-export enum Objects {
+enum Objects {
 	ChoiceScarf,
 	IronBall,
 	MachoBrace,
@@ -10,3 +10,5 @@ export enum Objects {
 	PowerWeight,
 	QuickPowder
 }
+
+export default Objects;

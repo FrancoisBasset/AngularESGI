@@ -1,4 +1,4 @@
-export enum Abilities {
+enum Abilities {
 	QuickFeet,
 	Tailwind,
 	SwiftSwim,
@@ -9,3 +9,5 @@ export enum Abilities {
 	SurgeSurfer,
 	SlowStart
 }
+
+export default Abilities;

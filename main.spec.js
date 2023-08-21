@@ -1,7 +1,7 @@
-const Pokemon = require('./Pokemon').Pokemon;
-const firstToAttack = require('./Pokemon').firstToAttack;
-const Abilities = require('./abilities').Abilities;
-const Objects = require('./objects').Objects;
+const Pokemon = require('./pokemon').Pokemon;
+const { firstToAttack } = require('./pokemon');
+const Abilities = require('./abilities');
+const Objects = require('./objects');
 
 describe('Pokemon', () => {
 	const francois = new Pokemon('francois', 50, 100, [

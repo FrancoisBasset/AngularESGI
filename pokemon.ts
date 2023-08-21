@@ -1,5 +1,5 @@
-import { Abilities } from './abilities';
-import { Objects } from './objects';
+import Abilities from './abilities';
+import Objects from './objects';
 
 export class Pokemon {
 	public paralysed: boolean = false;
